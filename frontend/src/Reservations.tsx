@@ -11,13 +11,10 @@ import {
   BedDouble,
   CalendarDays,
   Check,
-  ChevronRight,
   Clock,
   Edit3,
   Plus,
   Search,
-  Users,
-  X,
 } from "lucide-react";
 import { useApp } from "./context";
 import { post } from "./api";
@@ -29,7 +26,6 @@ import {
   day,
   Empty,
   ErrorBox,
-  Field,
   LoadState,
   Modal,
   money,

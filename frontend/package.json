@@ -1,7 +1,6 @@
 {
   "name": "haven-hotel-pms",
   "private": true,
-  "version": "1.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite --host 127.0.0.1",
@@ -9,19 +8,19 @@
     "preview": "vite preview --host 127.0.0.1"
   },
   "dependencies": {
+    "lucide-react": "0.468.0",
     "react": "19.3.0",
     "react-dom": "19.3.0",
-    "react-router-dom": "7.18.4",
-    "lucide-react": "0.468.0"
+    "react-router-dom": "7.18.4"
   },
   "devDependencies": {
+    "@tailwindcss/vite": "4.3.3",
     "@types/react": "19.3.0",
     "@types/react-dom": "19.3.0",
     "@vitejs/plugin-react": "4.7.0",
-    "typescript": "5.8.3",
-    "vite": "6.4.3",
     "tailwindcss": "4.3.3",
-    "@tailwindcss/vite": "4.3.3"
+    "typescript": "5.8.3",
+    "vite": "6.4.6"
   },
   "engines": {
     "node": ">=22.12.0"

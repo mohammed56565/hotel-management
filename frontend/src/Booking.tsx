@@ -13,7 +13,6 @@ import { useApp } from "./context";
 import type { Guest, Reservation, Room, RoomType } from "./types";
 import {
   addDays,
-  Badge,
   Button,
   Confirm,
   Empty,
@@ -22,7 +21,6 @@ import {
   Loading,
   money,
   PageTitle,
-  useApi,
 } from "./ui";
 
 export function Booking({

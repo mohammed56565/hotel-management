@@ -3,7 +3,6 @@ import { useSearchParams } from "react-router-dom";
 import {
   BedDouble,
   Check,
-  Edit3,
   Flag,
   Plus,
   Search,

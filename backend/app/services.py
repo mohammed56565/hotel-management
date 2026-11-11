@@ -3,7 +3,7 @@
 PostgreSQL READ COMMITTED + this common lock serializes capacity and state checks
 across workers. Keep the lock through commit, including inventory configuration.
 """
-from datetime import datetime, timedelta
+from datetime import datetime
 from zoneinfo import ZoneInfo
 from fastapi import HTTPException
 from sqlalchemy import func, select

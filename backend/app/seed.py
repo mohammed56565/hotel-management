@@ -1,7 +1,6 @@
 """Explicit opt-in demo data. Run only against a development database."""
 import argparse
 from datetime import timedelta
-from decimal import Decimal
 from sqlalchemy import select
 from .db import SessionLocal
 from .models import GuestProfile, HousekeepingTask, Reservation, Room, RoomIssue, RoomType, User, utcnow

@@ -19,7 +19,6 @@ import {
   Empty,
   LoadState,
   longDay,
-  money,
   PageTitle,
   Stat,
   TextLink,

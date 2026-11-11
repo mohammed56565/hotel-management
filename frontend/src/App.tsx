@@ -18,7 +18,6 @@ import {
   LayoutDashboard,
   LogOut,
   Menu,
-  Plus,
   Settings,
   ShieldCheck,
   Sparkles,

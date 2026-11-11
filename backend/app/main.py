@@ -1,4 +1,4 @@
-from datetime import date, timedelta
+from datetime import date
 from fastapi import FastAPI, HTTPException, Query, Request
 from fastapi.middleware.cors import CORSMiddleware
 from fastapi.responses import JSONResponse
@@ -11,7 +11,7 @@ from .models import GuestProfile, HotelSettings, HousekeepingTask, Reservation, 
 from .presenters import columns, reservation_view, room_view, task_view, user_view
 from .security import Admin, Booker, Current, Db, FrontDesk, Housekeeper, Staff, DUMMY_HASH, hasher, issue_token, verify_password
 
-app = FastAPI(title='Haven Hotel PMS', version='1.0.0', description='Single-hotel reservations and room operations. All dates use the configured hotel timezone.')
+app = FastAPI(title='Haven Hotel PMS', version='current', description='Single-hotel reservations and room operations. All dates use the configured hotel timezone.')
 app.add_middleware(CORSMiddleware, allow_origins=settings.cors_origins, allow_credentials=False,
                    allow_methods=['GET', 'POST', 'PUT', 'PATCH'], allow_headers=['Authorization', 'Content-Type'])
 
